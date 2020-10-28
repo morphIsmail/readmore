@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: Calibri;
+  color: #fff;
+  font-size: 18px;
+}
+.container {
+  width: 100%;
+  max-width: 1170px;
+  margin: 0 auto;
+  background-color: #eee;
+  display: flex;
+  justify-content: space-between;
+  padding: 100px 15px;
+}
+.card {
+  background-color: rgb(92, 209, 92);
+  width: 30%;
+  padding: 15px;
+  align-self: flex-start;
+}
+.more {
+  display: none;
+}
+.btn {
+  cursor: pointer;
+  border: none;
+  padding: 10px 20px;
+  outline: none;
+}
