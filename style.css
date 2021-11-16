@@ -31,3 +31,14 @@ body {
   padding: 10px 20px;
   outline: none;
 }
+
+@media (max-width: 475px) {
+  .container {
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 10px;
+  }
+  .card {
+    width: 100%;
+  }
+}
